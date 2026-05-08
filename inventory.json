@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "MacBook Pro 16\"",
+    "category": "Electronics",
+    "quantity": 12,
+    "price": 2499
+  },
+  {
+    "id": "2",
+    "name": "Ergonomic Office Chair",
+    "category": "Furniture",
+    "quantity": 4,
+    "price": 299.5
+  },
+  {
+    "id": "3",
+    "name": "Organic Coffee Beans (1kg)",
+    "category": "Groceries",
+    "quantity": 45,
+    "price": 18.99
+  },
+  {
+    "id": "4",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "quantity": 3,
+    "price": 49.99
+  },
+  {
+    "id": "5",
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "quantity": 8,
+    "price": 450
+  },
+  {
+    "id": "6",
+    "name": "Cotton T-Shirt",
+    "category": "Clothing",
+    "quantity": 120,
+    "price": 15
+  }
+]

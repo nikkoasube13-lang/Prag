@@ -1,0 +1,3 @@
+print("\n--- CURRENT INVENTORY ---")
+for name, details in inventory.items():
+    print(f"{name.title()} | Quantity: {details['quantity']} | Price: {details['price']}")

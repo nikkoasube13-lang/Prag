@@ -1,0 +1,5 @@
+if item_name in inventory:
+    del inventory[item_name]
+    print("Item removed successfully!")
+else:
+    print("Item not found!")

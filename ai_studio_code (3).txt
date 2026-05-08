@@ -1,0 +1,10 @@
+if item_name not in inventory:
+    print("Item not found!")
+    return
+
+try:
+    new_quantity = int(input("Enter new quantity: "))
+    inventory[item_name]["quantity"] = new_quantity
+    print("Quantity updated successfully!")
+except ValueError:
+    print("Invalid input – use a number for quantity.")

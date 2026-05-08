@@ -1,0 +1,11 @@
+if item_name in inventory:
+    print("Item already exists!")
+    return
+
+try:
+    quantity = int(input("Enter quantity: "))
+    price = float(input("Enter price: "))
+    inventory[item_name] = {"quantity": quantity, "price": price}
+    print("Item added successfully!")
+except ValueError:
+    print("Invalid input – use numbers for quantity and price.")

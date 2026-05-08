@@ -1,0 +1,24 @@
+while True:
+    print("\n==== INVENTORY MENU ====")
+    print("1. Add New Item")
+    print("2. View All Items")
+    print("3. Update Item Quantity")
+    print("4. Remove Item")
+    print("5. Save and Exit")
+    
+    choice = input("Choose an option (1-5): ")
+    
+    if choice == "1":
+        add_item(inventory)
+    elif choice == "2":
+        view_inventory(inventory)
+    elif choice == "3":
+        update_item(inventory)
+    elif choice == "4":
+        remove_item(inventory)
+    elif choice == "5":
+        save_inventory(inventory)
+        print("Changes saved. Goodbye!")
+        break
+    else:
+        print("Invalid choice – please enter a number between 1 and 5.")
